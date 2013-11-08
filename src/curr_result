@@ -1,0 +1,46 @@
+vijay@vijay-laptop:~/fa13_proj1$ ./script.sh 
+Compiling source ...
+g++ -g -c predictor.C
+g++ -g -lm -o predictor main.o traceread.o predictor.o
+Providing predictor with traces ...
+----------------------------------
+Processing DIST-FP-1.bz2 ...
+Branches	2213673
+Incorrect	1090306
+Output		36.961
+----------------------------------
+Processing DIST-FP-2.bz2 ...
+Branches	1792835
+Incorrect	895576
+Output		30.360
+----------------------------------
+Processing DIST-INT-1.bz2 ...
+Branches	4184792
+Incorrect	2079120
+Output		70.481
+----------------------------------
+Processing DIST-INT-2.bz2 ...
+Branches	2866495
+Incorrect	1415428
+Output		47.982
+----------------------------------
+Processing DIST-MM-1.bz2 ...
+Branches	2229289
+Incorrect	1104317
+Output		37.436
+----------------------------------
+Processing DIST-MM-2.bz2 ...
+Branches	3809780
+Incorrect	1906052
+Output		64.614
+----------------------------------
+Processing DIST-SERV-1.bz2 ...
+Branches	3660616
+Incorrect	1819509
+Output		61.680
+----------------------------------
+Processing DIST-SERV-2.bz2 ...
+Branches	3537562
+Incorrect	1750433
+Output		59.339
+
